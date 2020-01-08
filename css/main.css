@@ -31,11 +31,17 @@ img {
 article {
   background-color: #e2e2e2;
   padding: 2em 1em;
-  max-width: 50em;
 }
 
 div {
   padding: 1em 0;
+}
+
+.content {
+  max-width: 50em;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 a {
@@ -73,7 +79,7 @@ p {
     font-size: 110%;
   }
 
-  article {
+  .content {
     display: flex;
     padding-top: 0;
   }
@@ -91,6 +97,20 @@ p {
     font-size: 120%;
   }
 
+  .img-flex {
+    padding: 2em 1em;
+    flex-wrap: wrap;
+  }
+
+  .info {
+    flex-wrap: wrap;
+    padding: 3em 1em;
+  }
+
+  .content {
+    padding: 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -98,5 +118,8 @@ p {
   html {
     font-size: 130%;
   }
+
+
+
 
 }
