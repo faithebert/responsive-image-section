@@ -18,6 +18,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 img {
   display: block;
   width: 100%;
@@ -25,11 +30,32 @@ img {
 
 article {
   background-color: #e2e2e2;
+  padding: 2em 1em;
+  max-width: 50em;
+}
+
+div {
+  padding: 1em 0;
 }
 
 a {
   background-color: #555;
   color: #e2e2e2;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.description {
+  padding-bottom: 2em;
+}
+
+.cocoa {
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 25em) {
@@ -44,6 +70,15 @@ a {
 
   html {
     font: 110%/1.4;
+  }
+
+  article {
+    display: flex;
+    padding-top: 0;
+  }
+
+  .img-flex {
+    padding: 3em 1em 0;
   }
 
 }
