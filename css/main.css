@@ -131,7 +131,11 @@ p {
   }
 
   section {
-    padding: 0;
+    padding-top: .8em;
+  }
+
+  .description {
+    padding-bottom: 0;
   }
 
 }
