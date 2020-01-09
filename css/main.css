@@ -95,12 +95,16 @@ p {
   }
 
   .img-flex {
-    padding: 3em 1em 1em;
+    padding: 3em 0 1em;
     width: 50%;
   }
 
   .info {
     width: 50%;
+  }
+
+  a {
+    margin-top: 3em;
   }
 
 }
