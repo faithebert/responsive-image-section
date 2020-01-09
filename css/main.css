@@ -101,10 +101,12 @@ p {
 
   .info {
     width: 50%;
+    max-width: 300px;
+    margin-right: 2em;
   }
 
-  a {
-    margin-top: 3em;
+  .description {
+    margin-bottom: .5em;
   }
 
 }
