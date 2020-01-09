@@ -28,13 +28,17 @@ img {
   width: 100%;
 }
 
-article {
+section {
   background-color: #e2e2e2;
   padding: 2em 1em;
 }
 
 div {
   padding: 1em 0;
+}
+
+.img-flex {
+  display: inline-block;
 }
 
 .content {
@@ -47,7 +51,7 @@ div {
 a {
   background-color: #555;
   color: #e2e2e2;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -119,9 +123,8 @@ p {
     font-size: 130%;
   }
 
-  article {
+  section {
     padding: 0;
   }
-
 
 }
