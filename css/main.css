@@ -39,10 +39,6 @@ img {
   width: 100%;
 }
 
-.content {
-  max-width: 50em;
-}
-
 a {
   background-color: #555;
   color: #e2e2e2;
@@ -97,12 +93,14 @@ p {
   .img-flex {
     padding: 3em 0 1em;
     width: 50%;
+    flex-wrap: wrap;
   }
 
   .info {
     width: 50%;
     max-width: 300px;
     margin-right: 2em;
+    flex-wrap: wrap;
   }
 
   .description {
@@ -119,13 +117,12 @@ p {
   }
 
   .img-flex {
-    padding: 2em 1em;
-    flex-wrap: wrap;
+    padding: 0;
   }
 
   .info {
-    flex-wrap: wrap;
     padding: 3em 1em;
+    max-width: none;
   }
 
   .content {
